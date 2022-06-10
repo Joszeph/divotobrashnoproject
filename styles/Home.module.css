@@ -1,116 +1,343 @@
-.container {
-  padding: 0 2rem;
+/* Main */
+
+.banner{
+    min-height: 650px;
+    width: auto;
+    background-image: url("/paralax_background.webp");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.mainPicLogo{
+    height: auto;
+    max-width: 100%;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.mainInfo{
+    background-color: #7b7b7b;
+    text-align: center;
+    padding: 30px 30px 5px 30px;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.mainInfo h1{
+color: #ffcb08;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.mainInfo h2{
+    color: white;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+/* Product cards */
+
+.productsEl{
+    background-color: #7b7b7b;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.productCards{
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.title,
-.description {
-  text-align: center;
+.productCards h2{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    padding: 20px;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.product1,
+.product2,
+.product3,
+.product4,
+.product5,
+.product6{
+    text-align: center;
+    color: #464646;
+    height:230px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    border: 1px solid #5e3e22;
+    border-radius: 10%;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.product1{
+    background-image: url("/cards_background_01.png");
+    margin: 10px 10px 30px 10px;
+    cursor: pointer;
+}
+.product2{
+    background-image: url("/cards_background_02.png");
+    margin: 10px 10px 30px 10px;
+    cursor: pointer;
+}
+.product3{
+    background-image: url("/cards_background_3.png");
+    margin: 10px 10px 30px 10px;
+    cursor: pointer;
+}
+.product4{
+    background-image: url("/cards_background_4.png");
+    margin: 10px;
+    cursor: pointer;
+}
+.product5{
+    background-image: url("/cards_background_5.png");
+    margin: 10px;
+    cursor: pointer;
+}
+.product6{
+    background-image: url("/cards_background_6.png");
+    margin: 10px;
+    cursor: pointer;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+.product1 h3{
+    margin-top: 30px;
+}
+.product2 h3{
+    margin-top: 30px;
+}
+.product3 h3{
+    margin-top: 30px;
+}
+.product4 h3{
+    margin-top: 30px;
+}
+.product5 h3{
+    margin-top: 30px;
+}
+.product6 h3{
+    margin-top: 30px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.product1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product3:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product4:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product5:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product6:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+
+.productCardsEl{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+/* Product cards - End*/
+
+/* Bakeries */
+.bakeries{
+    background-color: #7b7b7b;
+    padding: 30px;
+    margin-bottom: 20px;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.bakeriesDiv{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.bakeriesDiv h1{
+    margin-bottom: 30px;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.bakCards{
+    display: flex;
+    justify-content: center;
+}
+
+.bakCard1,
+.bakCard2{
+    text-align: start;
+}
+
+.text1{
+    margin: -22px 33px;
+}
+
+.text2{
+    margin: -22px 13px;
+}
+
+.address{
+    font-style: normal;
+    margin-top: 15px;
+}
+
+/* Bakeries - End */
+
+/* Contacts & working time */
+
+.conWork{
+    background-color: #7b7b7b;
+    color: white;  
+}
+
+.conWorkFlex{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #7b7b7b;
+    color: white;  
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactDiv{
+    text-align: end;
+}
+
+.fbicon{
+    vertical-align:middle;
+    margin-right: 10px;
+}
+
+.workTime{
+    display: flex;
+    align-items: flex-end;
+}
+
+.workTime li{
+    list-style: none;
+    margin-right:10px;
+}
+
+/* Contacts & working time - End*/
+/* Main - End */
+
+
+@media only screen and (max-width: 640px){
+    .h1{
+        font-size: larger;
+    }
+
+    .h2{
+        font-size: large;
+    }
+
+    .h3{
+        font-size: medium;
+    }
+
+    .topTel {
+        justify-content: center;
+    }
+
+    .mainPicLogo {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .mainInfo{
+        background-color: #7b7b7b;
+        text-align: center;
+        padding: 0px ;
+    }
+
+    .banner {
+        min-height: 150px;
+        width: auto;
+        background-image: url('/paralax_background_mobile1.webp');
+        background-attachment: fixed;
+        background-position: 50% -5%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .productCards h2 {
+        padding-bottom: 0px;
+        margin-top: -15px;
+    }
+
+   
+
+    .product1,
+    .product2,
+    .product3,
+    .product4,
+    .product5,
+    .product6 {
+        margin: 10px 10px 10px 10px;
+        height: 190px;
+        width: 210px;
+    }
+
+    .bakeries {
+        padding: 0px;
+        margin: 40px auto;
+    }
+
+    .bakeriesDiv h1 {
+        margin-bottom: 20px;
+    }
+
+    .bakCards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bakCard1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .bakCard1 img{
+        max-width: 85%;
+    }
+
+    .bakCard2 {
+        text-align: center;
+    }
+
+    .bakCard2 img{
+        max-width: 83%;
+        margin-left: 28px;
+    }
+
+    .conWorkFlex {
+        margin: 0px auto;
+        background-color: #7b7b7b;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .workTime{
+        margin-right: 30px;
+    }
+
+    .tableDiv{
+        margin-top: -20px;
+    }
+
+    .contactDiv {
+        text-align: center;
+        margin-bottom: -40px;
+    }
+
+    
 }

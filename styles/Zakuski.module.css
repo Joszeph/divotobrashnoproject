@@ -1,0 +1,73 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.h2{
+color: white;
+text-align: center;
+margin-top: 40px;
+}
+
+.h3{
+color:white;
+text-align: center;
+margin-top: -20px;
+}
+
+.iCard{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid #5e3e22;
+    border-radius: 10%;
+    overflow: hidden;
+    margin:20px;
+    cursor: pointer;
+}
+
+.iCard:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.iCard img{
+    object-fit: cover;
+    width: 100%;
+    height: 70%; 
+    transition: ease-in;   
+}
+
+.iCard h4{
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 640px){
+    .h1{
+        font-size: larger;
+    }
+
+    .h2{
+        font-size: large;
+    }
+
+    .h3{
+        font-size: medium;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iCard{
+        margin:10px;
+    }
+
+}

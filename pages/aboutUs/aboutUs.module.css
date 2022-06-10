@@ -1,0 +1,64 @@
+.about{
+    margin-bottom: 0px;
+}
+.about h1{
+    color: white;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.aboutImg2{
+    display: none;
+}
+
+.aboutEl{
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+}
+
+.aboutText{
+    height: auto;
+    width: 573px;
+    color: white;
+    font-size: larger;
+}
+
+@media only screen and (max-width: 640px){
+    .h1{
+        font-size: larger;
+    }
+
+    .about h1 {
+        margin: 20px 0 0 0;
+    }
+
+    .aboutImg1{
+        display: none;
+    }
+
+    .aboutImg2{
+        display: block;
+    }
+
+    .aboutEl {
+        display: flex;
+        gap: 20px;
+        justify-content: end;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .aboutText {
+        height: auto;
+        width: auto;
+        margin: 0 15px 0 15px;
+        color: white;
+        font-size: large;
+    }
+}
+
+/* @media only screen and (min-width: 641px) {
+    
+} */

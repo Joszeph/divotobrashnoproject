@@ -1,0 +1,144 @@
+.main{
+    background-image: url('../public/blob_02.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about{
+    max-width: 1200px;
+    margin: 80px auto 0 auto;
+}
+
+.aboutEl{
+    display: flex;  
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.aboutImg{
+    height: 600px;
+}
+
+.about h1{
+    color: white;
+    text-align: center;
+    margin: 40px 0;
+
+}
+
+.imgProduct{
+    position: relative;
+    top: 69px;
+    left: -12px;
+    z-index: 2;
+}
+
+.circle{
+    width: 200px;
+    height: 350px;
+    background: white;
+    border-radius: 50%;
+    transform: rotate(282deg);
+    position: relative;
+    top: -162px;
+    left: 40px;
+    
+}
+
+.aboutText{
+    height: auto;
+    color: white;
+    font-size: larger;
+    text-align: end;
+    flex-basis: 28vh;
+}
+
+.aboutText h3{
+    margin-top:152px;
+}
+
+.backBtn{
+    margin-top: 300px;
+}
+
+.backBtn:hover{
+    color: #ffcb08;
+}
+
+.backBtnRes{
+    display: none;
+}
+
+@media only screen and (max-width: 640px){
+
+    .h3{
+        font-size: medium;
+    }
+
+    .h4{
+        font-size: medium;
+    }
+
+    .aboutText h3 {
+        margin-top: 20px;
+    }
+
+    .about{
+        margin-top: 0;
+    }
+
+    .main{
+        background-image: none;
+    }
+
+    .aboutText {
+        height: auto;
+        text-align: center;
+        flex-basis: 19vh;
+    }
+
+    .aboutEl{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .aboutImg{
+        height: 350px;
+    }
+
+    .backBtn{
+        display: none;
+    }
+
+    .backBtnRes{
+        display: block;
+        color: white;
+    }
+
+
+    .circle{
+        width: 200px;
+        height: 350px;
+        background: white;
+        border-radius: 50%;
+        transform: rotate(282deg);
+        position: relative;
+        top: -277px;
+        left: 60px;
+    }
+
+    .imgProduct{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+    }
+
+
+    .divConText{
+        width: 350px;
+        height: auto;
+    }
+
+  
+}

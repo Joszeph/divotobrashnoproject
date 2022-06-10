@@ -9,11 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@portabletext/react": "^1.0.6",
+    "@sanity/image-url": "^1.0.1",
+    "aos": "^3.0.0-beta.6",
     "next": "12.1.6",
+    "next-sanity": "^0.5.2",
+    "next-seo": "^5.4.0",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-image": "^4.0.3",
+    "react-images": "^1.2.0-beta.7",
+    "react-photo-gallery": "^8.0.0",
+    "react-portable-text": "^0.4.3"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "@types/node": "17.0.38",
     "@types/react": "18.0.10",
     "@types/react-dom": "18.0.5",

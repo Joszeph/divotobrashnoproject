@@ -1,0 +1,145 @@
+.h1{
+    font-size: 2rem;
+}
+
+.bakeries{
+    background-color: #7b7b7b;
+    padding: 0px;
+}
+
+.bakeriesDiv{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+
+.bakeriesDiv h1{
+    margin-bottom: 30px;
+}
+
+.address{
+    font-style: normal;
+    margin:20px 0;
+}
+
+.bakCard1,
+.bakCard2{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    margin: 50px 0;
+    gap:5%
+}
+
+.text1{
+    margin: -22px 33px;
+}
+
+.text2{
+    margin: -22px 13px;
+}
+
+.conWork{
+    background-color: #7b7b7b;
+    color: white;  
+}
+
+.conWorkFlex{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #7b7b7b;
+    color: white;  
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactDiv{
+    text-align: end;
+}
+
+.fbicon{
+    vertical-align:middle;
+    margin-right: 10px;
+}
+
+.workTime{
+    display: flex;
+    align-items: flex-end;
+}
+
+.workTime li{
+    list-style: none;
+    margin-right:10px;
+}
+
+
+@media only screen and (max-width: 640px){
+    .h1{
+        font-size: larger;
+    }
+
+    .bakeries {
+        padding: 0px;
+        margin: 40px auto;
+    }
+
+    .bakeriesDiv h1 {
+        margin-bottom: 20px;
+    }
+
+    .bakCard1,
+    .bakCard2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .InfoMap1,
+    .InfoMap2{
+        margin-bottom: 20px;
+    }
+
+    .bakCard1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .bakCard1 img{
+        max-width: 85%;
+    }
+
+    .bakCard2 {
+        text-align: center;
+    }
+
+    .bakCard2 img{
+        max-width: 83%;
+        margin-left: 28px;
+    }
+
+    .conWorkFlex {
+        margin: 0px auto;
+        background-color: #7b7b7b;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .workTime{
+        margin-right: 30px;
+    }
+
+    .tableDiv{
+        margin-top: -20px;
+    }
+
+    .contactDiv {
+        text-align: center;
+        margin-bottom: -40px;
+    }
+
+    
+}
