@@ -39,7 +39,7 @@ const Contacts = () =>{
                 <div className={styles.bakCards}>
                     <div className={styles.bakCard1}>
                         <div className={styles.InfoMap1}>
-                        <Image src="/bak_img_10.png" alt="Дивото Брашно Пекарна" width={402} height={313}/>
+                        <Image src="/bak_img_10.webp" alt="Дивото Брашно Пекарна" width={402} height={313}/>
                         <article className={styles.text1}>
                             <address className={styles.address}>Ул. Княз Н. Николаевич 28, <br />
                                 Варна (до цветята на Чаталджа)</address>
@@ -49,7 +49,7 @@ const Contacts = () =>{
                     </div>
                     <div className={styles.bakCard2}>
                         <div className={styles.InfoMap2}>
-                        <Image src="/bak_img_12.png" alt="Дивото Брашно Пекарна" width={402} height={312}/>
+                        <Image src="/bak_img_12.webp" alt="Дивото Брашно Пекарна" width={402} height={312}/>
                         <article className={styles.text2}>
                             <address className={styles.address}>Пазар Чаталджа, обект 80, Варна</address>
                         </article>
