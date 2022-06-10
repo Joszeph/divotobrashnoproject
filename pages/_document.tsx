@@ -1,10 +1,16 @@
 import Document, {Html, Head, Main, NextScript} from 'next/document'
 
+// interface Props {
+//     ctx?: any
+
+//     // any props that come into the component
+//   }
+
 class MyDocument extends Document {
-    static async getInitialProps(ctx) {
-        const initialProps = await Document.getInitialProps(ctx)
-        return {...initialProps}
-    }
+    // static async getInitialProps(ctx) {
+    //     const initialProps = await Document.getInitialProps(ctx)
+    //     return {...initialProps}
+    // }
 
     render() {
         return (
