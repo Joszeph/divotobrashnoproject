@@ -42,7 +42,7 @@ function Navbar() {
           </Link>
           
           <div className='menu_icon' onClick={handleClick}>
-          {click ? <span><img src='/closeBtn.png'></img></span> : <span><img src='/burgerBtn.png'></img></span> }
+          {click ? <span><img src='/closeBtn.png' width="28" height="28"></img></span> : <span><img src='/burgerBtn.png' width="32" height="32"></img></span> }
           </div>
          
           <ul className={click ? 'nav_menu active' : 'nav_menu'}>

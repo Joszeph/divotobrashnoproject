@@ -33,7 +33,7 @@ function Dropdown() {
             .dropdown_menu {
                 background-color:none;
                 position: absolute;
-                top: 106px;
+                top: 120px;
                 list-style: none;
                 text-align: start;
                 padding-left:0;

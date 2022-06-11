@@ -12,6 +12,7 @@ const Footer =()=>{
         <style jsx>{`
         .footerBack{
             height: 390px;
+            width:auto;
             background-image: url('/footer_06.webp');
             background-repeat: no-repeat;
             background-color:#7b7b7b;
