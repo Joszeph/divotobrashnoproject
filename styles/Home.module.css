@@ -1,7 +1,7 @@
 /* Main */
 
 .banner{
-    min-height: 650px;
+    height: 650px;
     width: auto;
     background-image: url("/paralax_background.webp");
     background-attachment: fixed;
@@ -256,7 +256,7 @@ color: #ffcb08;
     }
 
     .banner {
-        min-height: 150px;
+        height: 150px;
         width: auto;
         background-image: url('/paralax_background_mobile1.webp');
         background-attachment: fixed;
