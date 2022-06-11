@@ -21,7 +21,7 @@ export default function Home() {
       <main>
             <div className={styles.banner}>
             <div>
-                <Image className={styles.mainPicLogo} src="/mainPicLogo2.webp" alt="Дивото Брашно Лого" width={1920} height={650}/>
+                <img className={styles.mainPicLogo} src="/mainPicLogo2.webp" alt="Дивото Брашно Лого" width="1920" height="650"/>
             </div>
         </div>
         <section className={styles.mainInfo} data-aos="fade-up">
@@ -45,14 +45,14 @@ export default function Home() {
                 <h1 className={styles.h1} data-aos="zoom-in-up">ПЕКАРНИТЕ НИ</h1>
                 <div className={styles.bakCards}>
                     <div className={styles.bakCard1}>
-                        <Image src="/bak_img_10.webp" alt="Дивото Брашно Пекарна" width={402} height={313}/>
+                        <img src="/bak_img_10.webp" alt="Дивото Брашно Пекарна" width="402" height="313"/>
                         <div className={styles.text1}>
                             <address className={styles.address}>Ул. Княз Н. Николаевич 28, <br />
                                 Варна (до цветята на Чаталджа)</address>
                         </div>
                     </div>
                     <div className={styles.bakCard2}>
-                        <Image src="/bak_img_12.webp" alt="Дивото Брашно Пекарна" width={402} height={312}/>
+                        <img src="/bak_img_12.webp" alt="Дивото Брашно Пекарна" width="402" height="312"/>
                         <div className={styles.text2}>
                             <address className={styles.address}>Пазар Чаталджа, обект 80, Варна</address>
                         </div>
@@ -87,7 +87,7 @@ export default function Home() {
                 <div className={styles.contactDiv}>
                     <h4>За контакти:</h4>
                     <p><a href='tel:0888446116'>Тел.: 0888/446 116</a></p>
-                    <p><span className={styles.fbicon}><Image src="/fb-icon.png" alt="Дивото Брашно FaceBook Link" width={28} height={28}/></span><Link href="https://www.facebook.com/DivotoBrashno" ><a target="_blank">DivotoBrashno</a></Link></p>
+                    <p><span className={styles.fbicon}><img src="/fb-icon.png" alt="Дивото Брашно FaceBook Link" width="28" height="28"/></span><Link href="https://www.facebook.com/DivotoBrashno" ><a target="_blank">DivotoBrashno</a></Link></p>
                 </div> 
             </div>
         </section>
