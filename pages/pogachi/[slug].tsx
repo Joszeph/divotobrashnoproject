@@ -5,14 +5,27 @@ import{Pogachi} from '../../typings'
 import styles from '../../styles/ProductDetails.module.css'
 import Link from 'next/link'
 
+import{NextSeo} from 'next-seo'
+
 interface Props {
     post: Pogachi;
 }
 
 function PostPogachi({post}:Props) {
+
+    const SEO = {
+        title: `Пекарна Дивото Брашно | ${post.title}`,
+        description: "Голям Асортимент от Погачи | Пекарна Дивото Брашно Варна",
+    
+        openGraph:{
+            title: `Пекарна Дивото Брашно | ${post.title}`,
+            description: "Голям Асортимент от Погачи | Пекарна Дивото Брашно Варна",
+        }
+    }
     
   return (
    <main className={styles.main}>
+       <NextSeo {...SEO} />
         <div className={styles.about}>
             <div className={styles.aboutEl}>  
                 <div className={styles.backBtnRes}><Link href="/pogachi"><a>назад</a></Link></div>

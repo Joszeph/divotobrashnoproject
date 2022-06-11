@@ -4,7 +4,6 @@ import {MenuItems} from './MenuItems'
 import {useState} from 'react'
 
 
-
 function Dropdown() {
     const [click, setClick] = useState(false)
   
@@ -18,15 +17,15 @@ function Dropdown() {
         >
           {MenuItems.map((item, index) => {
             return (
-              <li key={index}>
-                <Link
-                  className={item.cName}
-                  href={item.path}
-                  
-                >
-                  <a onClick={() => setClick(false)}>{item.title}</a>
-                </Link>
-              </li>
+              <>
+              <Link className={item.cName} href={item.path}>
+                <a onClick={() => setClick(false)}>
+                  <li key={index}>
+                    {item.title}
+                  </li>
+                </a>
+              </Link>
+              </>        
             );
           })}
         </ul>
@@ -39,6 +38,7 @@ function Dropdown() {
                 text-align: start;
                 padding-left:0;
                 z-index: 1;
+                color:#ffcb07;
               }
               
               .dropdown_menu li {
@@ -53,7 +53,7 @@ function Dropdown() {
               }
               
               .dropdown_menu li:hover {
-                background: #ffcb08;
+                background: white;
               }
               
               .dropdown_menu.clicked {
