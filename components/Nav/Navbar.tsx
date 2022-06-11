@@ -37,7 +37,7 @@ function Navbar() {
         <nav className='navbar'>
           <Link href='/' className='navbar_logo'>
           <a onClick={() => closeMobileMenu}>
-          <img src="/main_top_logo.png" alt="Дивото Брашно Лого" width="248" height="139"/>
+          <Image src="/main_top_logo.png" alt="Дивото Брашно Лого" width="248" height="139"/>
             </a>
           </Link>
           

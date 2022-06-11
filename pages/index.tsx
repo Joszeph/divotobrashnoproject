@@ -21,7 +21,7 @@ export default function Home() {
       <main>
             <div className={styles.banner}>
             <div>
-                <img className={styles.mainPicLogo} src="/mainPicLogo2.webp" alt="Дивото Брашно Лого" width="1920" height="650"/>
+                <Image className={styles.mainPicLogo} src="/mainPicLogo2.webp" alt="Дивото Брашно Лого" width="1920" height="650"/>
             </div>
         </div>
         <section className={styles.mainInfo} data-aos="fade-up">
@@ -45,14 +45,14 @@ export default function Home() {
                 <h1 className={styles.h1} data-aos="zoom-in-up">ПЕКАРНИТЕ НИ</h1>
                 <div className={styles.bakCards}>
                     <div className={styles.bakCard1}>
-                        <img src="/bak_img_10.webp" alt="Дивото Брашно Пекарна" width="402" height="313"/>
+                        <Image src="/bak_img_10.webp" alt="Дивото Брашно Пекарна" width="402" height="313"/>
                         <div className={styles.text1}>
                             <address className={styles.address}>Ул. Княз Н. Николаевич 28, <br />
                                 Варна (до цветята на Чаталджа)</address>
                         </div>
                     </div>
                     <div className={styles.bakCard2}>
-                        <img src="/bak_img_12.webp" alt="Дивото Брашно Пекарна" width="402" height="312"/>
+                        <Image src="/bak_img_12.webp" alt="Дивото Брашно Пекарна" width="402" height="312"/>
                         <div className={styles.text2}>
                             <address className={styles.address}>Пазар Чаталджа, обект 80, Варна</address>
                         </div>
