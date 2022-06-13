@@ -5,7 +5,7 @@ const Administration = () => {
         <main>
             <div className="container">
             <h1>Административен Панел</h1>
-            <Link href="https://brashno-backend.sanity.studio/"><a>Вход</a></Link>
+            <Link href="https://brashno-backend.sanity.studio/"><a target="_blank">Вход</a></Link>
             </div>
             <style jsx>{`
                 main{
