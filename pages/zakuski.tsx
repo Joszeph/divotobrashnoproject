@@ -30,14 +30,14 @@ export default function ZakuskiPage({zakuski}:Props) {
           <h2 className={styles.h2}>Закуски</h2>
           <h3 className={styles.h3}>сладки и солени</h3>
         <div className={styles.container}>
-          {zakuski.map(item=>(
+          {/* {zakuski.map(item=>(
             <Link key={item._id} href={`/zakuski/${item.slug.current}`}>
                 <div className={styles.iCard}>
                     <img src={urlFor(item.mainImage).url()!} alt="" />
                     <h4>{item.title}</h4>
                 </div>
             </Link>
-          ))}
+          ))} */}
       </div>
       </main>
   )
