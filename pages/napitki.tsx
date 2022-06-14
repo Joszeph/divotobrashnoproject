@@ -30,12 +30,12 @@ export default function NapitkiPage({napitki}:Props) {
           <h2 className={styles.h2}>Напитки</h2>
         <div className={styles.container}>
           {napitki.map(item=>(
-            <Link key={item._id} href={`/napitki/${item.slug.current}`}>
-                <div className={styles.iCard}>
-                    <img src={urlFor(item.mainImage).url()!} alt="" />
-                    <h4>{item.title}</h4>
-                </div>
-            </Link>
+            <>
+              <div className={styles.iCard}>
+                  <img src={urlFor(item.mainImage).url()!} alt="" />
+                  <h4>{item.title}</h4>
+              </div>
+            </>
           ))}
       </div>
       </main>
