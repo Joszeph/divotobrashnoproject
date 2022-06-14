@@ -3,7 +3,7 @@ import Link from 'next/link'
 import ProductsListXs from '../components/ProductsListXs'
 import { sanityClient, urlFor } from '../sanity'
 import {Napitki} from '../typings' //interface for TS
-import styles from '../styles/Zakuski.module.css'
+import styles from '../styles/Napitki.module.css'
 
 import{NextSeo} from 'next-seo'
 
