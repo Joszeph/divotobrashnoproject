@@ -46,7 +46,7 @@ export default function ZakuskiPage({zakuski}:Props) {
 
 
 export const getServerSideProps = async () => {
-  const query = `*[_type == "zakuski"]{
+  const query = `*[_type == "zakuski"]  | order(_createdAt asc) {
     _id,
     title,
     description,
