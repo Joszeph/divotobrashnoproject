@@ -341,3 +341,9 @@ color: #ffcb08;
 
     
 }
+
+@media only screen and (max-width: 380px){
+    .workTime{
+        font-size: small;
+    }
+}
