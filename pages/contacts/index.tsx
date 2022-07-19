@@ -39,7 +39,7 @@ const Contacts = () =>{
                 <div className={styles.bakCards}>
                     <div className={styles.bakCard1}>
                         <div className={styles.InfoMap1}>
-                        <Image src="/bak_img_10.webp" alt="Дивото Брашно Пекарна" width={402} height={313}/>
+                        <Image src="/bak_img_10new.webp" alt="Дивото Брашно Пекарна" width={402} height={313}/>
                         <article className={styles.text1}>
                             <address className={styles.address}>Ул. Княз Н. Николаевич 28, <br />
                                 Варна (до цветята на Чаталджа)</address>
