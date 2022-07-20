@@ -11,7 +11,7 @@ export const photos = [
       height: 2
     },
     {
-      src: '/photos/0009.jpg',
+      src: '/photos/0203.jpg',
       width: 3,
       height: 2
     },
@@ -151,11 +151,6 @@ export const photos = [
       height: 2
     },
     
-    {
-      src: '/photos/0203.jpg',
-      width: 3,
-      height: 2
-    },
     {
       src: '/photos/0220.jpg',
       width: 3,
