@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import ProductsListXs from '../components/ProductsListXs'
 import { sanityClient, urlFor } from '../sanity'
 import {Sladki} from '../typings' //interface for TS
@@ -33,7 +34,7 @@ export default function SladkiPage({sladki}:Props) {
           {sladki.map(item=>(
             <Link key={item._id} href={`/sladki/${item.slug.current}`}>
                 <div className={styles.iCard}>
-                    <img src={urlFor(item.mainImage).url()!} alt="" />
+                    <Image src={urlFor(item.mainImage).url()!} alt=""  width="330" height="230"/>
                     <h4>{item.title}</h4>
                 </div>
             </Link>
