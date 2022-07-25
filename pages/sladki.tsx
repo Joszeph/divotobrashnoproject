@@ -61,3 +61,6 @@ const sladki = await sanityClient.fetch(query)
     }
   }
 }
+
+
+//Test
