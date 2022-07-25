@@ -64,4 +64,4 @@ const sladki = await sanityClient.fetch(query)
 }
 
 
-//Test
+//Test 2
