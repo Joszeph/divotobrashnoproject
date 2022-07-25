@@ -46,7 +46,7 @@ export default function SladkiPage({sladki}:Props) {
 
 
 export const getServerSideProps = async () => {
-  const query = `*[_type == "sladki"]{
+  const query = `*[_type == "sladki"] | order(_createdAt asc){
     _id,
     title,
     description,
